@@ -1,0 +1,86 @@
+/* //pseudo elements // */
+#para::first-letter{
+    color: red;
+    font-size: 2rem;
+}
+#para::first-line {
+    background-color: yellow;
+}
+
+mark{
+    background-color: blueviolet;
+    color: white;
+}
+span {
+    background-color: black;
+    color: bisque;
+}
+
+#para::selection {
+    background-color: deeppink;
+    color: #000;
+}
+
+#para2::first-letter{
+    color: black;
+    background-color:white ;
+    font-size: 2rem;
+}
+#para2::first-line {
+    background-color: yellow;
+}
+
+mark{
+    background-color : red;
+    color: white;
+}
+span {
+    background-color: deeppink;
+    color: black;
+}
+
+#para2::selection {
+    background-color: tomato;
+    color: #000;
+}
+
+li::marker{
+     content: "🐉";
+     color: red;
+     /* content: "---->"; */
+} 
+
+/* 
+//psuedo clases // */
+
+a:link {
+    background-color: green;
+    color: rgba(0, 0, 0, .5);
+}
+a:visited {
+    background-color: yellow;
+    color: rgba(0, 0, 0, .5);
+}
+a:hover {
+    background-color: purple;
+    color: white;
+}
+
+a:active{
+    background-color: red;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    font-size: 3rem;
+}
+
+#mainHeading::after{
+    content: "🍀";
+}
+#mainHeading::before{
+    content: "🍀";
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
